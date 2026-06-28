@@ -48,8 +48,4 @@ Architecture and implementation are under active development.
 
 > Applications provide features.
 >
-<<<<<<< HEAD
 > Users decide how those features belong on their screen.
-=======
-> Users decide how those features belong on their screen.
->>>>>>> ab775ae74de06e8f00a8a67e74eb387732e1a0c4
