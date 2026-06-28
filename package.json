@@ -1,0 +1,13 @@
+{
+  "name": "workspace-engine",
+  "version": "0.0.1",
+  "description": "Reorganize application interfaces to match how you think.",
+  "private": true,
+  "scripts": {
+    "dev": "esbuild src/content/index.js --bundle --outfile=dist/content.js --sourcemap --watch",
+    "build": "esbuild src/content/index.js --bundle --outfile=dist/content.js --sourcemap"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

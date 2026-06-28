@@ -4,20 +4,12 @@ node_modules/
 # Build output
 dist/
 
-# Environment
-.env
-.env.*
-
-# Logs
-npm-debug.log*
-
-# IDE
-.vscode/
-.idea/
-
-# OS
+# OS artifacts
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
+# Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo

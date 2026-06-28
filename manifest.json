@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Workspace Engine",
+  "version": "0.0.1",
+  "description": "Reorganize application interfaces to match how you think. YouTube PoC.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/watch*"],
+      "js": ["dist/content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "permissions": [],
+
+  "icons": {
+    "48": "assets/icons/icon-48.png"
+  }
+}
